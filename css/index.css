@@ -1,0 +1,125 @@
+.logo{
+	width: 150px;
+}
+
+
+.autores{
+	font-size: 14px;
+	width: 395px;
+	text-align: center;
+}
+
+
+.titulo{
+
+	font-size: 50px;
+}
+
+.contenido{
+ width: 1250px;
+}
+
+.contenidoOpciones{
+width: 1150px;
+
+}
+
+.tamanioFilaSabores{
+
+	width: 1070px;
+  height: 100px;
+
+
+}
+
+
+.formularioCantidadPizza, .tamaniosPizzas{
+	display: flex;
+	align-items: center;
+	border:  solid #FD1414 ;
+}
+
+.formularioOpcionesPizza {
+  border:  solid #FD1414 ;
+
+}
+
+.input{
+
+	width: 140px;
+	height: 30px;
+}
+
+.input:focus { 
+       outline: none;
+        border-color: #FFDFDF;
+       box-shadow: 0 0 10px #FFDFDF;
+}
+#botonCrear{
+	width: 70px;
+	height: 32px;
+}
+
+#botonCargarNuevo{
+	width: 150px;
+	height: 32px;
+
+}
+
+#botonCargarFactura{
+  width: 150px;
+
+}
+
+.boton{
+  background:  #FC6D6D;
+  border-bottom: 5px solid #FD1414;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  display: block;  
+  text-align: center;
+  transition: all 0.2s ease 0s;
+ 
+}
+.boton:hover{
+	background: #FD1414;
+}
+
+
+.selector{
+	width: 130px;
+}
+
+.imagenesSabores{
+  width: 220px;
+  height: 140px;;
+}
+
+table{
+	background: #ec8787;
+	overflow:hidden;
+	border-collapse:collapse; 
+	-webkit-border-radius:12px;	-moz-border-radius:12px;border-radius:12px; 
+    width: 1150px;
+	margin: auto;
+	margin-bottom: 40px;
+} 
+table th{
+	color:#FFF;
+	padding:10px 10px;
+	background-color:rgba(216, 15, 15, 0.918);
+	height:20px;
+}
+table tr:nth-child(even) {
+ 	color:#fff;
+	background:#e08282; 
+}
+table tr:nth-child(odd) {
+	background: #fff;
+	
+}
+table tr:hover{
+	color:#fff;
+	background-color:rgba(145, 6, 6, 0.966);
+}
